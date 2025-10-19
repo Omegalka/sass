@@ -1,0 +1,12 @@
+@use "../base/variables" as *;
+
+.btn {
+  display: block;
+  width: $btn-width;
+  height: $btn-height;
+  background-color: $color-primary;
+  font-size: 1rem;
+  color: $color-white;
+  text-transform: uppercase;
+  letter-spacing: $btn-letter-spacing;
+}

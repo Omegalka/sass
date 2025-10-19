@@ -1,0 +1,20 @@
+
+@use "../base/variables" as *;
+
+/*
+** Footer
+*/
+.footer {
+  padding: 50px 0;
+  background-color: $primaryColor;
+
+  &__title {
+    margin-bottom: 20px;
+    color: $white;
+  }
+
+  &__description {
+    margin-inline: auto;
+    color: $white;
+  }
+}

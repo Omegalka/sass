@@ -1,0 +1,12 @@
+@use "../base/mixins" as *;
+
+.container {
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+@include media-down(xl) {
+  .container{
+    padding: 0 30px;
+  }
+}

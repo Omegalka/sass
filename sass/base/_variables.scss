@@ -1,0 +1,29 @@
+$primaryColor: #34547A;
+$greyLight: #EEEFF1;
+$greyDark: #727272;
+$white: #ffffff;
+$black: #000000;
+$fontSize: 16px;
+$fontSizeSm: 14px;
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+
+$container-max: 1120px;
+
+$base-font-size: 16px;
+$h1-size: 3rem;
+$h2-size: 2rem;
+$h3-size: 1.3125rem;
+$line-height-base: 1.64;
+
+$btn-width: 225px;
+$btn-height: 65px;
+$btn-letter-spacing: 2px;

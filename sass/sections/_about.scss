@@ -1,0 +1,18 @@
+
+@use "../base/variables" as *;
+
+/*
+** About
+*/
+.about-me {
+  padding: 112px 0 100px 0;
+
+  &__title {
+    margin-bottom: 50px;
+    color: $black;
+  }
+
+  &__description {
+    margin-inline: auto;
+  }
+}

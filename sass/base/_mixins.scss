@@ -1,0 +1,27 @@
+@use "sass:map";
+@use "./variables" as *;
+
+@mixin media-down($name) {
+  $value: map.get($breakpoints, $name);
+
+  @media screen and (max-width: $value) {
+    @content;
+  }
+}
+
+@mixin respond($bp) {
+  @if $bp == sm {
+    @media screen and (max-width: $bp-sm) { @content; }
+  } @else if $bp == md {
+    @media screen and (max-width: $bp-md) { @content; }
+  } @else if $bp == lg {
+    @media screen and (max-width: $bp-lg) { @content; }
+  } @else {
+    @warn "Unknown breakpoint `#{$bp}`";
+  }
+}
+
+@mixin image-size($w, $h: auto) {
+  width: $w;
+  height: $h;
+}
